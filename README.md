@@ -1,19 +1,20 @@
-Simple Python Search Spider, Page Ranker, and Visualizer
+### Simple Python Search Spider, Page Ranker, and Visualizer
 
-This is a set of programs that emulate some of the functions of a 
-search engine.  They store their data in a SQLITE3 database named
+### This is a set of programs that emulate some of the functions of a search engine.
+They store their data in a SQLITE3 database named
 'spider.sqlite'.  This file can be removed at any time to restart the
 process.   
 
-You should install the SQLite browser to view and modify 
+
+### You should install the SQLite browser to view and modify 
 the databases from:
 
 http://sqlitebrowser.org/
 
-This program crawls a web site and pulls a series of pages into the
+### This program crawls a web site and pulls a series of pages into the
 database, recording the links between pages.
 
-Note: Windows has difficulty in displaying UTF-8 characters
+### Note: Windows has difficulty in displaying UTF-8 characters
 in the console so for each console window you open, you may need
 to type the following command before running this code:
 
@@ -34,7 +35,7 @@ How many pages:2
 2 http://www.dr-chuck.com/csev-blog/ 57
 How many pages:
 
-In this sample run, we told it to crawl a website and retrieve two 
+## In this sample run, we told it to crawl a website and retrieve two 
 pages.  If you restart the program again and tell it to crawl more
 pages, it will not re-crawl any pages already in the database.  Upon 
 restart it goes to a random non-crawled page and starts there.  So 
